@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rookie Season</title>
+<meta name="description" content="New to sports? Rookie Season helps you find a team that fits you, and explains the leagues, the seasons and the words you will hear.">
+<meta name="theme-color" content="#08070B">
+<meta property="og:title" content="Rookie Season">
+<meta property="og:description" content="New to sports? Find the team that fits you.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23A78BFA'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial' font-weight='800' font-size='28' fill='%230D0A14'%3ERS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>#app::before{content:"Rookie Season needs JavaScript turned on to work.";display:block;padding:40px 0}</style></noscript>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#home" aria-label="Rookie Season, home"><span class="brand-mark" aria-hidden="true">RS</span><span class="brand-name">Rookie Season</span></a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Sections">
+      <a href="#home" data-nav="home">Find a team</a>
+      <a href="#browse" data-nav="browse">All teams</a>
+      <a href="#near" data-nav="near">Near you</a>
+      <a href="#players" data-nav="players">Players</a>
+      <a href="#other" data-nav="leagues">More leagues</a>
+      <a href="#basics" data-nav="basics">The basics</a>
+      <a href="#home" data-nav="my" id="nav-my" hidden>★ My team</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap"></main>
+<footer class="foot">
+  <div class="wrap">
+    <p><b>Rookie Season</b> is an independent fan project for people who are new to sports. It is not affiliated with or endorsed by any league or team, and team names are used only to identify them. <a href="#about">About, sources and privacy</a> · <a href="#dictionary">Sports dictionary</a> · <a href="#calendar">Season calendar</a> · <a href="#vs">Compare two teams</a> · <a href="#rules">Rules quiz</a></p>
+    <p id="foot-src"></p>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>

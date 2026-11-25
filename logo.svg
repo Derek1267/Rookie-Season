@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Rookie Season"><rect width="64" height="64" rx="14" fill="#A78BFA"/><text x="32" y="43" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="28" fill="#0D0A14">RS</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Rookie Season">
+  <defs><clipPath id="c"><circle cx="60" cy="60" r="56"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect x="0" y="0" width="60" height="60" fill="#a78bfa"/>
+    <rect x="60" y="0" width="60" height="60" fill="#f6f3ff"/>
+    <rect x="0" y="60" width="60" height="60" fill="#e6defc"/>
+    <rect x="60" y="60" width="60" height="60" fill="#6d4ee8"/>
+    <!-- basketball seams -->
+    <path d="M10 40 C 24 34, 36 22, 40 4" fill="none" stroke="#0d0a14" stroke-width="5" stroke-linecap="round"/>
+    <path d="M44 10 C 38 24, 40 40, 52 58" fill="none" stroke="#0d0a14" stroke-width="5" stroke-linecap="round"/>
+    <!-- football laces -->
+    <path d="M72 46 L104 16" stroke="#0d0a14" stroke-width="5" stroke-linecap="round"/>
+    <path d="M76 34 l9 9 M84 27 l9 9 M92 20 l9 9" stroke="#0d0a14" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- hockey puck -->
+    <ellipse cx="32" cy="95" rx="20" ry="7" fill="#1c1630"/>
+    <rect x="12" y="84" width="40" height="11" fill="#1c1630"/>
+    <ellipse cx="32" cy="84" rx="20" ry="7" fill="#3a3352" stroke="#0d0a14" stroke-width="2"/>
+    <!-- baseball stitching -->
+    <path d="M78 64 C 86 80, 86 100, 76 118" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M77 70 l8 -3 M81 79 l8 -2 M83 88 l8 0 M82 97 l8 2 M80 106 l8 3" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <path d="M60 2 V118 M2 60 H118" stroke="#0d0a14" stroke-width="5"/>
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#0d0a14" stroke-width="3"/>
+</svg>
